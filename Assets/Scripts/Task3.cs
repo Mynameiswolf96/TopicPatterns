@@ -3,14 +3,14 @@ using System;
 
 namespace HomeWork1
 {
-    public class Task3  : MonoBehaviour
+    public class Task3  
     {
-        String _quitProgram = "quitProgram";
-        String startProgram = "Здравствуйте вас приветствует математическая программа";
-        String writeNumber = "Пожалуйста введите число";
-        private String _firstnumber;
-        private void Start()
+        static void Main(string[] args)
         {
+            String _quitProgram = "quitProgram";
+            String startProgram = "Здравствуйте вас приветствует математическая программа";
+            String writeNumber = "Пожалуйста введите число";
+            String _firstnumber;
             Console.WriteLine((startProgram));
             Console.WriteLine(writeNumber);
             _firstnumber = Console.ReadLine();
